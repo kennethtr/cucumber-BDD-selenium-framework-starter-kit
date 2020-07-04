@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="968c787f-a524-4c01-8537-38dca55895aa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dJyZaPO891tdMP99Igy8k6vXUA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumTestFramework_StarterKit" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.620133" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\rogers-billpayment-test\rogers-billpayment\src\test\java\com\rogers\tests" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\rogers-billpayment-test\rogers-billpayment\src\test\resources" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\rogers-billpayment-test\rogers-billpayment\src\test\resources\features" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\rogers-billpayment-test" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\rogers-tes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="billpayment.steps" />
+      <recent name="billpayment.service" />
+      <recent name="billpayment.runner" />
+      <recent name="ui.utils" />
+      <recent name="com.rhpl.tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\src\main\java\billpayment\ui" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\src\test\resources" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\src\test\java\billpayment\glue" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\rogers-test-steps\src\main\java\steps" />
+      <recent name="C:\Users\kenneth.royen\Documents\FRAMEWORK\Ex_Files_Mobile_Testing_Appium\Exercise Files\POMTest\rogers-test-ui\src\main\java\ui" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn -U idea:idea" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: Ro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/rhpl/tests/resources/features/Ro.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="POMTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Ro" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify that a Rogers customer is able to pay outstanding Bills" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/rhpl/tests/resources/features/Ro.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="POMTest" />
+      <option name="NAME_FILTER" value="^Verify that a Rogers customer is able to pay outstanding Bills$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Verify that a Rogers customer is able to pay outstanding Bills$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that a Rogers customer is able to pay outstanding Bills" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rogers.tests.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rogers.tests.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.rogers.tests.runner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="UtilitiesBillPaymentCanada" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="billpayment.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="billpayment.runner" />
+      <option name="MAIN_CLASS_NAME" value="billpayment.runner.Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRogersLLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rogers.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rogers.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.rogers.tests.TestRogersLLogin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demosite.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demosite.runner" />
+      <option name="MAIN_CLASS_NAME" value="demosite.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that a Rogers customer is able to pay outstanding Bills" />
+        <item itemvalue="Cucumber Java.Feature: Ro" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="968c787f-a524-4c01-8537-38dca55895aa" name="Default Changelist" comment="" />
+      <created>1592157547085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592157547085</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="53" key="#Plugins" timestamp="1593566946222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1593566946222" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1593745690087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593745690087" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1592619753135" />
+    <state x="370" y="30" key="#Runner_(1)" timestamp="1592617530623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="30" key="#Runner_(1)/0.0.1536.824@0.0.1536.824" timestamp="1592617530623" />
+    <state x="331" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592617536023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592365325180" />
+    <state x="331" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1592617536023" />
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592617525415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1592617525415" />
+    <state x="492" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593824376968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="492" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593745670715" />
+    <state x="492" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1593824376968" />
+    <state x="262" y="352" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592592877324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2248" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592365541744" />
+    <state x="262" y="352" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1592592877324" />
+    <state x="510" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1592534385816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1592534385816" />
+    <state x="430" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593820861316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1593820861316" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593744246941">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593744246941" />
+    <state x="395" y="181" key="#xdebugger.evaluate" timestamp="1593821915579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2440" y="150" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592777797793" />
+    <state x="395" y="181" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1593821915579" />
+    <state x="501" y="153" key="FileChooserDialogImpl" timestamp="1593735714550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="501" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593735714550" />
+    <state x="501" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593566928306" />
+    <state width="1491" height="136" key="GridCell.Tab.0.bottom" timestamp="1593879009426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593782653970" />
+    <state width="1876" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593784905844" />
+    <state width="1491" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593879009426" />
+    <state width="1491" height="136" key="GridCell.Tab.0.center" timestamp="1593879009426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="276" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593782653970" />
+    <state width="1876" height="276" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593784905844" />
+    <state width="1491" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593879009426" />
+    <state width="1491" height="136" key="GridCell.Tab.0.left" timestamp="1593879009426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="276" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593782653970" />
+    <state width="1876" height="276" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593784905844" />
+    <state width="1491" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593879009426" />
+    <state width="1491" height="136" key="GridCell.Tab.0.right" timestamp="1593879009426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="276" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593782653970" />
+    <state width="1876" height="276" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593784905844" />
+    <state width="1491" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593879009426" />
+    <state width="1492" height="349" key="GridCell.Tab.1.bottom" timestamp="1593824252438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="30" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592967666756" />
+    <state width="1876" height="334" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593219218704" />
+    <state width="1492" height="349" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593824252438" />
+    <state width="1492" height="349" key="GridCell.Tab.1.center" timestamp="1593824252438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="30" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592967666756" />
+    <state width="1876" height="334" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593219218704" />
+    <state width="1492" height="349" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593824252438" />
+    <state width="1492" height="349" key="GridCell.Tab.1.left" timestamp="1593824252438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="30" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592967666756" />
+    <state width="1876" height="334" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593219218704" />
+    <state width="1492" height="349" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593824252438" />
+    <state width="1492" height="349" key="GridCell.Tab.1.right" timestamp="1593824252438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="30" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592967666756" />
+    <state width="1876" height="334" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593219218704" />
+    <state width="1492" height="349" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593824252438" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1593746902689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593746902689" />
+    <state x="2294" y="85" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592795187162" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1592617961031" />
+    <state x="277" y="0" width="1254" height="824" key="SettingsEditor" timestamp="1593824131855">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="282" y="0" width="1254" height="824" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593738315781" />
+    <state x="2266" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592490763102" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593824131855" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1592790231827">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592790231827" />
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592789070984">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592789070984" />
+    <state x="2208" y="319" width="1108" height="571" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593218940304">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2208" y="319" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593218940304" />
+    <state x="214" y="141" width="1108" height="571" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1592667926337" />
+    <state x="533" y="0" width="719" height="824" key="find.popup" timestamp="1593823015775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="533" y="94" width="549" height="635" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593731221976" />
+    <state x="2586" y="119" width="587" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592771453710" />
+    <state x="533" y="0" width="719" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593823015775" />
+    <state x="274" y="111" key="new project wizard" timestamp="1592590591889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2262" y="140" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592316372446" />
+    <state x="274" y="111" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592590591889" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1593824390066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="537" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592868818496" />
+    <state x="2451" y="236" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593211651587" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593824390066" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592618929431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592618929431" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rogers-billpayment-test/rogers-billpayment/src/test/java/com/rogers/pages/Rogers_HomePageWeb.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rogers-integration-test/src/test/java/billpayment/glue/BillPaymentGlue.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rogers-test-steps/src/main/java/steps/implementation/TestStepsImplementation.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rogers-test-steps/src/main/java/steps/implementation/TestStepsImplementation.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demosite/impl/TestStepsImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demosite/ui/config/WebDriverFactory.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demosite/ui/pages/studentdetails/DemoSiteLoginPageWeb.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demosite/ui/utils/CommonUtils.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-field">
+          <url>file://$PROJECT_DIR$/rogers-test-steps/src/main/java/steps/implementation/TestStepsImplementation.java</url>
+          <line>12</line>
+          <properties field="rogersHomePageWeb" class="steps.implementation.TestStepsImplementation" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
