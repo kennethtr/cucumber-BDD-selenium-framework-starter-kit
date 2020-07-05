@@ -12,24 +12,48 @@ import java.util.Set;
 
 public class CommonUtils {
 
+    /**
+     *
+     * @param driver
+     * @param timeout
+     * @param webElement
+     */
     public void waitForVisible (WebDriver driver, int timeout, WebElement webElement)
     {
         WebDriverWait wait = new WebDriverWait(driver, timeout);
         wait.until(ExpectedConditions.visibilityOf(webElement));
     }
 
+    /**
+     *
+     * @param driver
+     * @param timeout
+     * @param webElement
+     */
     public void waitForVisibleAndClick(WebDriver driver, int timeout, WebElement webElement)
     {
         waitForVisible(driver, timeout, webElement);
         webElement.click();
     }
 
+    /**
+     *
+     * @param driver
+     * @param timeout
+     * @param webElement
+     */
     public void waitForEnable(WebDriver driver, int timeout, WebElement webElement )
     {
         WebDriverWait wait = new WebDriverWait(driver, timeout);
         wait.until(ExpectedConditions.elementToBeClickable(webElement));
     }
 
+    /**
+     *
+     * @param driver
+     * @param timeout
+     * @param webElement
+     */
     public void waitForEnableAndClick(WebDriver driver, int timeout, WebElement webElement)
 
     {
@@ -38,6 +62,11 @@ public class CommonUtils {
         webElement.click();
     }
 
+    /**
+     *
+     * @param webElement
+     * @param driver
+     */
     public void moveToElement(WebElement webElement, WebDriver driver)
     {
         Actions actions = new Actions(driver);
@@ -61,13 +90,22 @@ public class CommonUtils {
 //
 //    }
 
-
+    /**
+     *
+     * @param driver
+     * @param element
+     */
     public void scrollToWebElement (WebDriver driver, WebElement element)
     {
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         jsExecutor.executeScript("arguments[0].scrollIntoView();", driver);
     }
 
+    /**
+     *
+     * @param webElement
+     * @param driver
+     */
     public void clickUsingJsExecutor(WebElement webElement, WebDriver driver) {
         waitForVisible(driver,15, webElement);
         scrollToWebElement(driver, webElement);
@@ -93,6 +131,11 @@ public class CommonUtils {
 //        return Boolean.parseBoolean(s);
 //    }
 
+    /**
+     *
+     * @param element
+     * @param driver
+     */
     public void clickUsingActions(WebElement element, WebDriver driver)
     {
         Actions action = new Actions(driver);
@@ -100,6 +143,11 @@ public class CommonUtils {
         action.moveToElement(element).click().perform();
     }
 
+    /**
+     *
+     * @param webElement
+     * @param driver
+     */
     public void doubleClickUsingActions(WebElement webElement, WebDriver driver)
     {
         Actions action = new Actions(driver);
@@ -107,6 +155,10 @@ public class CommonUtils {
         action.moveToElement(webElement).doubleClick().perform();
     }
 
+    /**
+     *
+     * @param driver
+     */
     public void openNewTabAndSwitch (WebDriver driver)
     {
         try
@@ -131,6 +183,12 @@ public class CommonUtils {
         }
     }
 
+    /**
+     *
+     * @param webElement
+     * @param driver
+     * @return
+     */
     public boolean retryWaitForElementPresent(WebElement webElement, WebDriver driver)
     {
         boolean result = false;
@@ -153,6 +211,12 @@ public class CommonUtils {
         return result;
     }
 
+    /**
+     *
+     * @param dropdownElement
+     * @param driver
+     * @param optionToSelect
+     */
     public void selectDropDownOption(WebElement dropdownElement, WebDriver driver, String optionToSelect)
     {
         waitForVisibleAndClick(driver, 60, dropdownElement);
@@ -172,6 +236,12 @@ public class CommonUtils {
 //            e.printStackTrace();
 //        }
 //    }
+
+    /**
+     *
+     * @param webElement
+     * @param webdriver
+     */
     public void clearInputTextField(WebElement webElement, WebDriver webdriver)
     {
         waitForVisibleAndClick(webdriver, 60, webElement);
@@ -180,12 +250,22 @@ public class CommonUtils {
         builder.sendKeys(Keys.DELETE).keyUp(Keys.CONTROL).build().perform();
     }
 
+    /**
+     *
+     * @param webElement
+     * @param driver
+     * @return
+     */
     public String getTextOfWebElement(WebElement webElement, WebDriver driver)
     {
         waitForVisible(driver, 60, webElement);
        return webElement.getText().trim();
     }
 
+    /**
+     *
+     * @param driver
+     */
     public synchronized void takeScreenshot(WebDriver driver)
     {
         try {
