@@ -1,4 +1,4 @@
-# cucumber-bdd-selenium-framework-starter-kit
+# cucumber-BDD-selenium-framework-starter-kit
 Cucumber selenium framework starter kit
 
 This project is intended to help fellow QA testers/analysts get started with a robust test framework to  automate test cases for Web applications.
