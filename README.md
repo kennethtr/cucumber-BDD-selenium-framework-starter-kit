@@ -7,7 +7,7 @@ The framework is Cucumber-BDD based and uses Selenium, Java libraries and incorp
 
 Features include:
 
- - Support for all major web browsers 
+ - Support for all major web browsers (Windows + MacOS)
  - Support for reporting (using Extent Reports)
  - Support for capturing screenshots
  - Utilities class which has resuable methods that help perform common web actions.
