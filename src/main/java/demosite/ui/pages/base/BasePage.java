@@ -8,6 +8,10 @@ public class BasePage {
 
     protected WebDriver driver;
 
+    /**
+     *
+     * @param driver
+     */
     protected BasePage(WebDriver driver)
     {
        this.driver = WebDriverFactory.webDriver;

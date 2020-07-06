@@ -13,7 +13,6 @@ public class Hooks {
         try {
 
             Reporter.addScenarioLog("Starting scenario execution : " + scenario.getName());
-            System.setProperty("org.freemarker.loggerLibrary", "none");
         } catch (Exception e) {
             e.printStackTrace();
         }

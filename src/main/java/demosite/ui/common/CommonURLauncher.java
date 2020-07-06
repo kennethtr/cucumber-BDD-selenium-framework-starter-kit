@@ -9,6 +9,10 @@ public class CommonURLauncher extends BasePage {
 
     final static Logger logger = Logger.getLogger(CommonURLauncher.class);
 
+    /**
+     *
+     * @param driver
+     */
     public CommonURLauncher(WebDriver driver)
     {
         super(driver);
@@ -16,6 +20,9 @@ public class CommonURLauncher extends BasePage {
 
     }
 
+    /**
+     *
+     */
     public void launchURL()
     {
         logger.debug("Launching the web application URL...");

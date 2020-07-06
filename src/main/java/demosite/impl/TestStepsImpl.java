@@ -18,17 +18,28 @@ public class TestStepsImpl implements TestStepsService {
     EnterStudentDetailsPageWeb enterStudentDetailsPageWeb = new EnterStudentDetailsPageWeb(webDriver);
     CommonURLauncher commonURLauncher = new CommonURLauncher(webDriver);
 
+    /**
+     *
+     * @param username
+     * @param password
+     */
 
     public void login(String username, String password) {
         commonURLauncher.launchURL();
         demoSiteLoginPageWeb.login(username, password);
     }
 
+    /**
+     *
+     */
     public void addNewStudent()
     {
         addStudentPageWeb.addStudent();
     }
 
+    /**
+     *
+     */
     public void verifyEnterStudentDetailsPage()
     {
         enterStudentDetailsPageWeb.verifyEnterStudentDetailsPage();

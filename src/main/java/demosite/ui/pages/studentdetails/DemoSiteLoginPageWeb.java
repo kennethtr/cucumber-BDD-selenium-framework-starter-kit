@@ -40,6 +40,12 @@ public class DemoSiteLoginPageWeb extends BasePage {
      * @param username
      * @param password
      */
+
+    /**
+     *
+     * @param username
+     * @param password
+     */
     public void login(String username, String password) {
         logger.debug("Opening demo site...");
         commonUtils.waitForVisible(driver, timeout, homePageLogo);

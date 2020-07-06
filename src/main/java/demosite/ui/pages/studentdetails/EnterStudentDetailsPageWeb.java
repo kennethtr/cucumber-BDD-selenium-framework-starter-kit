@@ -29,6 +29,9 @@ public class EnterStudentDetailsPageWeb extends BasePage {
         this.driver = driver;
     }
 
+    /**
+     *
+     */
     public void verifyEnterStudentDetailsPage()
     {
     commonUtils.waitForVisible(driver, timeout, enterStudentDetailsPageHeader);
