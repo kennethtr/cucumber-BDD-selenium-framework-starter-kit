@@ -5,6 +5,8 @@ This Maven project is intended to help fellow QA testers/analysts get started wi
 
 The framework is Cucumber-BDD based and uses Selenium, Java libraries and incorporates Page Object Model.
 
+Java and Maven are pre-requisites.
+
 Features include:
 
  - Support for all major web browsers (Windows + MacOS)
