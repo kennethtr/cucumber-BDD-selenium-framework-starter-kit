@@ -1,14 +1,17 @@
 package demosite.ui.utils;
 
+import io.appium.java_client.AppiumDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DriverCommand;
+import org.openqa.selenium.remote.RemoteExecuteMethod;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
-import java.util.Set;
+import java.util.*;
 
 public class CommonUtils {
 
@@ -73,22 +76,22 @@ public class CommonUtils {
         actions.moveToElement(webElement);
     }
 
-//    public void switchToContext(String context, WebDriver appiumDriver)
-//    {
-//        RemoteExecuteMethod executeMethod = new RemoteExecuteMethod((AppiumDriver) appiumDriver);
-//        Map<String, Object> params = new HashMap<>();
-//        params.put("name", context);
-//        executeMethod.execute(DriverCommand.SWITCH_TO_CONTEXT, params);
-//    }
+    public void switchToContext(String context, WebDriver appiumDriver)
+    {
+        RemoteExecuteMethod executeMethod = new RemoteExecuteMethod((AppiumDriver) appiumDriver);
+        Map<String, Object> params = new HashMap<>();
+        params.put("name", context);
+        executeMethod.execute(DriverCommand.SWITCH_TO_CONTEXT, params);
+    }
 
-//    public WebElement getVisibleElement(By webElement, WebDriver driver)
-//    {
-//        moveToElement(driver.findElement(webElement), driver);
-//        List<WebElement> elementList = driver.findElements(webElement);
-//        WebElement visibleWebELement = elementList.stream().filter(l2 -> l2.isDisplayed()).findFirst().get();
-//        return visibleWebELement;
-//
-//    }
+    public WebElement getVisibleElement(By webElement, WebDriver driver)
+    {
+        moveToElement(driver.findElement(webElement), driver);
+        List<WebElement> elementList = driver.findElements(webElement);
+        WebElement visibleWebELement = elementList.stream().filter(l2 -> l2.isDisplayed()).findFirst().get();
+        return visibleWebELement;
+
+    }
 
     /**
      *
@@ -114,22 +117,22 @@ public class CommonUtils {
         js.executeScript("arguments[0].click()", webElement);
     }
 
-//    public void swipeDownToViewNotifications(WebDriver driver)
-//    {
-//        Map<String, Object> params = new HashMap<>();
-//        params.put("start", "100.0%");
-//        params.put("end", "0%,100%");
-//        params.put("duration", "3");
-//        ((AppiumDriver) driver).executeScript( "mobile:touch:swipe", params);
-//    }
-//
-//    public boolean validatePushNotificationMessage(String message, WebDriver driver)
-//    {
-//        Map<String, String> map = new HashMap<>();
-//        map.put("content", message);
-//        String s = (String) ((AppiumDriver) driver).executeScript("mobile:checkpoint:text", map);
-//        return Boolean.parseBoolean(s);
-//    }
+    public void swipeDownToViewNotifications(WebDriver driver)
+    {
+        Map<String, Object> params = new HashMap<>();
+        params.put("start", "100.0%");
+        params.put("end", "0%,100%");
+        params.put("duration", "3");
+        ((AppiumDriver) driver).executeScript( "mobile:touch:swipe", params);
+    }
+
+    public boolean validatePushNotificationMessage(String message, WebDriver driver)
+    {
+        Map<String, String> map = new HashMap<>();
+        map.put("content", message);
+        String s = (String) ((AppiumDriver) driver).executeScript("mobile:checkpoint:text", map);
+        return Boolean.parseBoolean(s);
+    }
 
     /**
      *
@@ -223,19 +226,19 @@ public class CommonUtils {
         Select dropdown = new Select(dropdownElement);
         dropdown.selectByVisibleText(optionToSelect);
     }
-//    public void switchToNewTabAndCloseToReturn(WebDriver webDriver) {
-//        try {
-//            Thread.sleep(3000);
-//            String oldTab = webDriver.getWindowHandle();
-//            ArrayList<String> newTab = new ArrayList< > (webDriver.getWindowHandles());
-//            newTab.remove(oldTab);
-//            webDriver.switchTo().window(newTab.get(0));
-//            webDriver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "w");
-//            webDriver.switchTo().window(oldTab);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//    }
+    public void switchToNewTabAndCloseToReturn(WebDriver webDriver) {
+        try {
+            Thread.sleep(3000);
+            String oldTab = webDriver.getWindowHandle();
+            ArrayList<String> newTab = new ArrayList< > (webDriver.getWindowHandles());
+            newTab.remove(oldTab);
+            webDriver.switchTo().window(newTab.get(0));
+            webDriver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "w");
+            webDriver.switchTo().window(oldTab);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
     /**
      *
@@ -272,9 +275,6 @@ public class CommonUtils {
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             String screenshotLocation = System.getProperty("user.dir") + "//screenshots";
             FileUtils.copyFileToDirectory(srcFile, new File(screenshotLocation));
-//            MediaEntityModelProvider mediaEntityModelProvider = MediaEntityBuilder.createScreenCaptureFromPath(new File(screenshotLocation).getPath()).build();
-//            ThreadLocal<ExtentTest> stepTestThreadLocal = new InheritableThreadLocal<>();
-//            stepTestThreadLocal.get().info("", mediaEntityModelProvider);
         }
         catch (Exception e)
         {
